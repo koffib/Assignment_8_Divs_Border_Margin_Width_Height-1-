@@ -16,58 +16,118 @@
 
 #left-container {
     background-color: var(--left-container);
+    
     color: white;
+   
 
 }
 
 
 #left-top-container {
+    
     background-color: var(--left-top-container);
+    margin : 10px;
+    
+    margin-left: 20px;
+    padding: 20px;
+    padding-right :50px;
+    width: 30%;
+    height :50%
+   
+    
+    
+   
+    
 }
 
 #left-bottom-container {
-    background-color: var(--left-top-container);
+    background-color: #ff6633;
+    
+    margin-top: 50px;
+    margin-left: 95px;
+  
+   
+    padding: 20px;
+    padding-right :20px;
+    
+    width: 80%;
+    height: 30%;
 
 }
 
 #container-a {
     color: black;
-    background-color: var(--left-inner-container);
+    padding : 15px;
+    padding-left: 80px;
+    background-color: #FFCC00;
     display: inline-block;
     text-align: center;
+    Margin-Top :20px;
+    margin-left: 55px;
+    
+
+
+
 
 
 }
 
 #container-b {
-    background-color: var(--left-inner-container);
+    background-color: #FFCC00;
+    padding : 5px;
+    padding-left: 20px;
+    margin-top: 65px;
+    margin-left: 100px;
     color: black;
 }
 
 /* Right Container */
 
 #right-container {
-    background-color: var(--right-container);
+    background-color: #666600;
     color: white;
 
 }
 
 #right-top-container {
-    background-color: var(--right-top-container);
+    background-color:#ff6633;
+    padding: 10px;
+    padding-top: 1px;
+    margin:10px;
+    margin-top:10px;
+    margin-left:170px;
+    width:30%;
+    height:40%;
 
 }
 
 #right-middle-container {
-    background-color: var(--right-top-container);
+    background-color: #ff6633;
+    
+    width:70%;
+    height:5%;
+   
 
 }
 
 #right-bottom-container {
+    
     background-color: var(--right-top-container);
+    margin-left: 20px;
+    margin-top: 30px;
+    padding-left: 35px;
+    padding-right: 25px;
+    padding-bottom: 20px;
+    width: 30%;
+    height: 35%;
 
 }
 
 #container-c {
+   
+    Padding-Bottom: 60px;
+    
+    padding:auto ;
 
 
     background-color: var(--right-inner-container);
@@ -75,12 +135,18 @@
 }
 
 #container-d {
-    background-color: var(--right-inner-container);
+    padding-right: 78px;
+    padding-left: 80px;
+    margin-right: 70px;
+    margin-left: 40px;
+    background-color: #FFCC00;
     color: black;
 }
 
 #container-e {
+   
     background-color: var(--right-inner-container);
+    padding: 5px;
     color: black;
 
 }
